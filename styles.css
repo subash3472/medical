@@ -361,8 +361,8 @@ h1 {
 
 .left-section h4 {
   color: #6a6a6a;
-  font-size: 32px;
-  margin-top: 10px;
+  font-size: 38px;
+  margin-top: 20px;
   font-weight: 700px;
 }
 .left-section span {
@@ -372,6 +372,10 @@ h1 {
   color: #6a6a6a;
   text-indent: 20px;
   font-size: 1.1rem;
+}
+#medi_gap_121 {
+  padding-top: 8px;
+  padding-bottom: 5px;
 }
 
 /* cards */
@@ -563,11 +567,31 @@ h1 {
   .carousel-item img {
     object-fit: cover;
   }
+  .container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    padding: 5px;
+  }
+  .xxx_Sdsds_444 li,
+  .xxx_Sdsds_2222 li {
+    padding: 2px;
+    color: #bcbcbc;
+    font-size: 14px;
+  }
+  .left-section h4 {
+    color: #6a6a6a;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 700px;
+  }
 }
 
 .box.animate.fadeInDown h1.animated.bounceInDown {
   font-weight: 700;
 }
+
 /*  */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -586,6 +610,7 @@ h1 {
   .for_para_and_img_main {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
   }
   .aa_icons_parent {
     display: grid;
