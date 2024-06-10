@@ -15,8 +15,6 @@ body {
 }
 /*  */
 
-/*  */
-
 .main_smarteye_container {
   display: flex;
   justify-content: space-between;
@@ -93,15 +91,6 @@ body {
   height: 500px; 
 } */
 .container-fluid {
-  /* padding-left: 25px !important;
-  padding-right: 50px !important ;
-  margin-left: 25px !important;
-  margin-right: 50px !important; */
-  /*  */
-  /* padding-left: 0px !important;
-  padding-right: 0px !important;
-  margin-left: 0px !important;
-  margin-right: 10px !important; */
   padding: 5px;
 }
 .navbar-nav li {
@@ -992,7 +981,6 @@ header a:hover {
 .slider .list .item:nth-child(1) {
   z-index: 1;
 }
-
 /* animation text in first item */
 .slider .list .item:nth-child(1) .content .title,
 .slider .list .item:nth-child(1) .content .type,
