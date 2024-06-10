@@ -65,5 +65,5 @@ function moveSlider(direction) {
       }
     },
     { once: true }
-  ); // Remove the event listener after it's triggered once
+  );
 }

@@ -67,6 +67,8 @@ body {
   padding: 10px;
   color: #bcbcbc;
   font-size: 20px;
+  /* c & p */
+  list-style: none;
 }
 
 .xxx_Sdsds_2222 li i {
@@ -142,7 +144,7 @@ body {
 .carousel-item img {
   width: 100%;
   /* height: 500px;  */
-  height: 600px;
+  height: 60vh;
   object-fit: cover;
 }
 
@@ -593,6 +595,50 @@ h1 {
     margin-top: 20px;
     font-weight: 700px;
   }
+
+  /* carosal mobile  */
+  .btn.btn-info {
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    margin-top: 8px;
+  }
+
+  .box.animate.fadeInLeft .animated_paragraph_texts {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1rem;
+  }
+  .animated_paragraph_texts {
+    margin-bottom: 0px;
+    color: white;
+  }
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+  .box {
+    color: white;
+    color: #87cefa;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    /* line-height: 15px;  */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .animated {
+    color: #00a8df;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif !important;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 22px;
+    margin-top: 35px;
+  }
 }
 
 .box.animate.fadeInDown h1.animated.bounceInDown {
@@ -632,6 +678,53 @@ h1 {
     display: flex;
     flex-direction: column;
   }
+  /* corsal for mobiles  */
+  /*  */
+  .btn.btn-info {
+    color: white;
+    padding: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    margin-top: 5px;
+  }
+
+  .box.animate.fadeInLeft .animated_paragraph_texts {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  .animated_paragraph_texts {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+    line-height: 2.5rem;
+  }
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+  .box {
+    color: white;
+    color: #87cefa;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .animated {
+    color: #00a8df;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif !important;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 25px;
+    margin-top: 35px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -655,6 +748,15 @@ h1 {
     display: flex;
     flex-direction: row;
   }
+  /* carosal modile */
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+  .box.animate.fadeInLeft .animated_paragraph_texts {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -669,6 +771,52 @@ h1 {
   .aa_icons_parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /*  */
+  .btn.btn-info {
+    color: white;
+    padding: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+  }
+
+  .box.animate.fadeInLeft .animated_paragraph_texts {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  .animated_paragraph_texts {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+    line-height: 2.5rem;
+  }
+  .carousel-caption {
+    margin-bottom: 80px;
+  }
+  .box {
+    color: white;
+    color: #87cefa;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .animated {
+    color: #00a8df;
+    font-family: "mouse-500", Arial, Helvetica, sans-serif !important;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 25px;
+    margin-top: 35px;
   }
 }
 
