@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none !important;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
@@ -101,7 +102,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 16px;
-  color: #444;
+  color: #444 !important;
   font-weight: 700;
 
   font-family: "mouse-500", Arial, Helvetica, sans-serif;
@@ -110,6 +111,10 @@ body {
   font-weight: 700;
 
   /* line-height: 1.5;  */
+}
+
+.navbar-nav li a {
+  color: #6a6a6a;
 }
 
 .navbar_main_medical {
@@ -303,7 +308,7 @@ h1 {
 
 .grid-item {
   background-color: #ddd;
-  padding: 20px;
+  padding: 25px;
   background-color: #03509e;
 }
 .card_Single_container {
@@ -334,7 +339,8 @@ h1 {
 }
 
 .card_Single_container h5 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  font-weight: 700;
   line-height: 1.2;
   display: flex;
   flex-wrap: wrap;
@@ -367,8 +373,8 @@ h1 {
 .left-section p {
   color: #6a6a6a;
   text-indent: 20px;
-  font-size: 1.1rem;
-  line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.6;
   padding-right: 10px;
 }
 #medi_gap_121 {
@@ -420,7 +426,7 @@ h1 {
   color: #6a6a6a;
 }
 .single-key p {
-  font-size: 15px;
+  font-size: 18px;
   width: 100%;
 }
 .a1_00 {
@@ -628,6 +634,22 @@ h1 {
     font-size: 22px;
     margin-top: 35px;
   }
+  /* about */
+  .gird_photos_container_dsafad {
+    grid-template-columns: repeat(1, 1fr) !important;
+    /* gap: 5px;  */
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .grid-item_main_xxs {
+    margin: 10px;
+  }
+  .t_main_x {
+    padding-left: 0px;
+  }
+  .main_2_icons_container_x {
+    padding: 15px !important ;
+  }
 }
 
 .box.animate.fadeInDown h1.animated.bounceInDown {
@@ -696,6 +718,10 @@ h1 {
   .btn.btn-info {
     padding: 0px;
   }
+  .gird_photos_container_dsafad {
+    grid-template-columns: repeat(2, 1fr) !important;
+    /* gap: 5px;  */
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -713,7 +739,7 @@ h1 {
   .second_3carsds_container_total {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    /* gap: 30px; */
   }
   .footer_2nd_container {
     display: flex;
@@ -826,6 +852,10 @@ h1 {
     line-height: 1.5;
     font-size: 25px;
     margin-top: 35px;
+  }
+  .gird_photos_container_dsafad {
+    grid-template-columns: repeat(4, 1fr) !important;
+    /* gap: 5px;   */
   }
 }
 
